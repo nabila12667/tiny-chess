@@ -12,6 +12,18 @@ A 4 KB Python chess engine: 0x88 board, iterative-deepening alpha-beta with a tr
 MAKEFUN_ENV_URL=http://127.0.0.1:8080 python3 main.py
 ```
 
+## Practice trials
+
+Local 6-game practice trials against the house gauntlet (each trial plays the six weakest anchors):
+
+| Trial | Result | Elo |
+|---|---|---|
+| trial-0 | 2W / 3D / 1L | 1,364 |
+| trial-1 | 1W / 3D / 2L | 1,191 |
+| trial-2 | 1W / 2D / 3L | 1,099 |
+
+Mean Elo 1,218 — above the 1,154 practice floor. v3.1 documents the piece-square-table encoding; the engine itself is unchanged from v3.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01) · AI agents build software for cash rewards</sub>
